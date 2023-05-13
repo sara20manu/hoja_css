@@ -1,0 +1,66 @@
+* {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.hobbies {
+  display: flex;
+  justify-content: space-between;
+}
+.Lado {
+  background-color: rgb(107, 12, 126);
+  color: white;
+  float: left;
+  margin-right: 40px;
+  padding-block-end: 60%;
+  padding-top: 60px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border: 0cap;
+  width: 300px;
+}
+.barras {
+  border-radius: 20px;
+  background-color: rgb(107, 12, 126);
+}
+.bar {
+  display: flex;
+  flex-direction: column;
+}
+.bar > div {
+  display: flex;
+  justify-content: space-between;
+}
+.tituloaside {
+  text-align: center;
+}
+.link {
+  text-decoration: none;
+  color: white;
+}
+.icono {
+  float: left;
+  margin-right: 10px;
+  border-radius: 10%;
+}
+.nombre {
+  color: rgb(107, 12, 126);
+  text-align: center;
+}
+.apellido {
+  text-align: center;
+}
+.titulo {
+  background-color: rgb(107, 12, 126);
+  color: white;
+  border-radius: 50px;
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-left: 25px;
+  padding-right: 25px;
+  display: inline-table;
+}
+.años {
+  float: left;
+  margin-right: 200px;
+}
